@@ -1,0 +1,37 @@
+{
+  "name": "vscode-linear",
+  "displayName": "VSCode Linear",
+  "description": "A Linear-inspired colorscheme",
+  "publisher": "gantoreno",
+  "version": "0.1.0",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gantoreno/vscode-linear.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gantoreno/vscode-linear/issues",
+    "email": "gantoreno@gmail.com"
+  },
+  "keywords": [
+    "theme",
+    "linear",
+    "dark"
+  ],
+  "icon": "assets/icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Linear (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/linear-dark.json"
+      }
+    ]
+  }
+}
